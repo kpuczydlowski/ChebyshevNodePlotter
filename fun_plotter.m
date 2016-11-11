@@ -28,7 +28,7 @@ for k = 1:length(r)
     x = a + (0:n_s-1)*h_s;
     c_x = (0.5)*(b-a)*cos( (2 * (1:n_s) - 1) / (2 * n_s) * pi);
 
-    X = sprintf('%i Interpolation Points',n_s);
+    X = sprintf('%i Sampling Points',n_s);
     disp(X)
 
     % Runge function
